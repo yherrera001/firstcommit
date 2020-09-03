@@ -1,0 +1,65 @@
+How to collaborate in github git!
+
+cd
+
+mkdir newdirectory
+
+cd newdirectory
+
+git clone "https://github.com/username/repositoryname.git" your-own-clone-name
+
+ls
+
+cd your-own-clone-name
+
+ls
+
+//random.txt// (content inside of folder)
+
+note: open "random.txt" visusal studio code
+
+note: make change to "random.txt" and save it!
+
+git checkout -b newbranch
+
+git branch
+//*newbranch
+
+git status
+
+git add -A 
+
+git status
+
+git commit -m"message"
+
+git checkout master
+
+git branch
+//*master
+
+git merge newbranch
+
+git branch -d newbranch
+
+git branch
+//*master
+
+git push
+
+
+/// IF MERGE CONLFICT \\\
+
+git pull
+
+git status
+
+git add -A 
+
+git status
+
+git commit -m"message in the present-tense"
+
+git push
+
+PROBELM SOLVED :)
